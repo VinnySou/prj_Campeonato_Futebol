@@ -1,0 +1,1 @@
+select * from partidas p order by p.id

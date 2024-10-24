@@ -1,0 +1,58 @@
+FAZER TRATAMENTO DE ERROS PARA ENTRADAS ERRADAS NO CRUD DE TODAS AS ENTIDADES
+
+FAZER AS MENSAGEM DE ERRO, QUANDO DIGITAR VALORES INVÁLIDOS
+
+- FAZER MENSAGEM DE ERRO PARA QUANDO DESEJA EXCLUIR VALOR QUE TEM CHAVE ESTRAGEIRA
+
+
+
+
+
+
+URGENTE:
+
+FAZER O create_tables_and_records.py
+COLOCAR CONSULTA POR AGRUPAMENTO (EX: JOGADORES NO TIME TAL)
+
+inserir:
+(5) pergunte ao usuário se deseja inserir mais algum registro, caso a resposta
+seja "Não", volte ao menu principal. Caso a resposta seja "Sim", volte ao menu de
+opções de entidades existentes ou permita que continue realizando a ação na
+entidade previamente selecionada.
+
+
+
+excluir:
+ (i) verifique se o registro que o usuário deseja alterar é uma FK (Foreing Key)
+em outra tabela, caso seja: informe que aquele registro não poderá ser excluído ou
+pergunte se é desejo dele remover o registro da tabela filha, excluindo caso a
+resposta seja sim.
+ (6) pergunte ao usuário se deseja excluir mais algum registro, caso a resposta
+seja "Não", volte ao menu principal. Caso a resposta seja "Sim", volte ao menu de
+5
+opções de entidades existentes ou permita que continue realizando a ação na
+entidade previamente selecionada.
+
+atualizar:
+(8) pergunte ao usuário se deseja atualizar mais algum registro, caso a resposta
+seja "Não", volte ao menu principal. Caso a resposta seja "Sim", volte ao menu de
+opções de entidades existentes ou permita que continue realizando a ação na
+entidade previamente selecionada.
+
+ (5) solicite que ele informe todos os atributos atômicos, exceto a chave primária
+ou permita que ele escolha qual atributo deseja alterar (em times é posspivel alterar somente o nome)
+ (6) realize a atualização da tupla com os dados informados pelo usuário
+
+
+ACRESCENTAR NO TUTORIAIS:
+
+ELEVAR O NÍVEL DO USUÁRIO DO BANCO: 
+GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';
+FLUSH PRIVILEGES; (EXCECUTAR NO MYSQL COMMAND LINE CLIENT)
+
+INSTALAR O CONNECTOR MYSQL NO AMBIENTE PYTHON 
+pip install mysql-connector-python
+
+INSTALAR O PANDAS: 
+pip install pandas
+//VERIFICAR COMANDOS PARA O LINUX
