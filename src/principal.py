@@ -11,6 +11,7 @@ from controller.controller_partidas import Controller_Partidas
 # create_tables()
 
 
+
 tela_inicial = SplashScreen()
 relatorio = Relatorio()
 ctrl_estadios = Controller_Estadios()
